@@ -50,9 +50,9 @@ class IndexState extends State<IndexPage> {
                 children: <Widget>[
                   Expanded(
                       child: Theme(
-          data: new ThemeData(
-            primaryColor: Color(0xff158274),
-            primaryColorDark: Color(0xff158274),
+          data: ThemeData(
+            primaryColor: Colors.green[900],
+            primaryColorDark: Colors.green[900],
           ),
                                               child: TextField(
                                                 
