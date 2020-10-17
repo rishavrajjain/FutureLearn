@@ -109,7 +109,7 @@ class IndexState extends State<IndexPage> {
                         
                         onPressed: onJoin,
                         child: Text('Join meeting'),
-                        color: Color(0xff158274),
+                        color: Colors.green[900],
                         textColor: Colors.white,
                       ),
                     )
